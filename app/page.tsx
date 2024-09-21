@@ -42,9 +42,16 @@ export default async function Home() {
             .
           </li>
           <li className="mb-2">
-            Your Location is{" "}
+            Your Country is{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               {locationData?.country} 
+            </code>
+            .
+          </li>
+          <li className="mb-2">
+            Your City is{" "}
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+              {locationData?.city} 
             </code>
             .
           </li>
